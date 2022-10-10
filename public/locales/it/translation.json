@@ -1,0 +1,112 @@
+{
+    "labels": {
+        "proSkills": "Competenze professionali",
+        "softSkills": "Competenze trasversali",
+        "techSkills": "Competenze tecniche",
+        "languages": "Lingue",
+        "experience": "Esperienza",
+        "education": "Istruzione",
+        "aboutMe": "Chi sono"
+    },
+    "cv": {
+        "personalInfo": {
+            "name": "Flavius Dolca",
+            "phone": "+39 328 477 7204",
+            "email": "flaviusdolca@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/flavius-dolca-18b09b150",
+            "github": "https://github.com/flaviusdolca",
+            "profilePic": "me.jpeg",
+            "birthYear": "1997",
+            "location": "Lodi, Italia",
+            "hobbies": "motorcycling, sports, reading, technology"
+        },
+        "description": "Sono un individuo altamente motivato, con una forte passione per la programmazione e la sicurezza informatica, specializzato lato backend con capacità di frontend. Grazie alle mie capacità di apprendimento riesco a svolgere anche mansioni non in linea con le mie competenze del momento in maniera molto dinamica e veloce, seguendo sempre le linee guida del linguaggio/framework o attività presa in carico.",
+        "professionalSkills": {
+            "softSkills": [
+                "Ottime capacità di apprendimento e di adattamento all'ambiente lavorativo",
+                "Ottime capacità gestionali",
+                "Abituato alla metodologia Agile e al lavoro di squadra",
+                "Ottime capacità comunicative"
+            ],
+            "techSkills": [
+                "Abituato ad utilizzare diversi design pattern",
+                "Autonomo nella creazione e sviluppo delle applicazioni",
+                "Ottima conoscenza di Java (11+)",
+                "Buona conoscenza del framework Spring Boot, Quarkus,  Hibernate e JPA",
+                "Conoscenza base di JSP e Thymeleaf",
+                "Ottima conoscenza di  Javascript (ES6+), NodeJs, NextJs, ExpressJs e Strapi",
+                "Conoscenza base d Typescript e ReactJs",
+                "Buona conoscenza dei DBMS relazionali più comuni e MongoDb",
+                "Buona conoscenza dei servizi AWS più comuni (Cognito, DynamoDB, S3, ElasticBeanstalk, EC2 ...)",
+                "Buona conoscenza di Python e Flask",
+                "Buona conoscenza di Docker",
+                "Capacità base di DevOps",
+                "Buona conoscenza delle vulnerabilità web più comuni e dei tools di penetration testing"
+            ]
+        },
+        "experience": [
+            {
+                "companyName": "Relatech",
+                "city": "Milano",
+                "occupation": "Backend Developer",
+                "from": "Febbraio 2022",
+                "to": "Luglio 2022",
+                "descriptionList": [
+                    "Sviluppo di microservizi utilizzando il framework  Quarkus (Java)",
+                    "Sviluppo test automatici",
+                    "Integrazione OpenID SSO utilizzando Keycloak",
+                    "Integrazione e automazione tra prodotti terzi utilizzando Flask (Python)"
+                ]
+            },
+            {
+                "companyName": "Anoki",
+                "city": "Milano",
+                "occupation": "Software Developer",
+                "from": "Novembre 2019",
+                "to": "Febbraio 2022",
+                "descriptionList": [
+                    "Attività di consulenza esterna su progetti di varie dimensioni, sia in autonomia che all'interno di una squadra. ",
+                    "Esperienza con Spring, Spring Flow, JSP e JQuery, Thymeleaf, Hibernate, SpringBoot e altre tecnologie basate su Java.",
+                    "Integrazione di  Twilio, SendGrid e altri servizi di terze parti.",
+                    "Sviluppo e manutenzione di applicativi NodeJs con ExpressJs.",
+                    "Esperienza con i test automatici lato backend (Spring e ExpressJs)",
+                    "Esperienza con numerosi servizi AWS",
+                    "Attività di DevOps  on-demand su server Linux o AWS.",
+                    "Sviluppo CMS con Strapi e blog con NextJs in autonomia  per un famoso giornalista italiano.",
+                    "Eseguite attività di tutoraggio per stagisti e ragazzi che stavano seguendo un percorso di scuola-lavoro.",
+                    "Sviluppo dashboard interne con ReactJs",
+                    "Eseguite attività di manutenzione su applicativi VueJs",
+                    "Manutenzione applicativi Flask e Spring.",
+                    "Eseguita attività di security assessment per i servizi pubblici aziendali"
+                ]
+            },
+            {
+                "companyName": "Zucchetti",
+                "city": "Lodi",
+                "occupation": "Java Developer",
+                "from": "Ottobre  2016 ",
+                "to": "Novembre 2019",
+                "descriptionList": [
+                    "Sviluppo applicativo usato per la gestione e la generazione di buste paghe in Java.",
+                    "Gestione e manutenzione delle base di dati dei clienti e supporto tecnico ai clienti.",
+                    "Esperienza con Java 7 e framework proprietario,",
+                    "Esperienza con  Tomcat e vari DBMS i quali: MicrosoftSQL, PostgreSQL, Oracle.",
+                    "Segnalazione di varie vulnerabilità client-side in molteplici software aziendali."
+                ]
+            }
+        ],
+        "education": [
+            {
+                "schoolName": "Istituto Istruzione Superiore \"A.Cesaris\"",
+                "description": "Informatica",
+                "location": "Casalpusterlengo, Italia",
+                "data": " 2011-2016"
+            }
+        ],
+        "languages": [
+            "Italiano",
+            "Inglese",
+            "Romeno"
+        ]
+    }
+}

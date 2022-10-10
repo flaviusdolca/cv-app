@@ -1,0 +1,115 @@
+{
+    "labels": {
+        "proSkills": "Professional Skills",
+        "softSkills": "Soft Skills",
+        "techSkills": "Technical Skills",
+        "languages": "Languages",
+        "experience": "Experience",
+        "education": "Education",
+        "aboutMe": "About me"
+
+    },
+    "aboutMe":{
+        "description":"",
+        "faq":[
+            {
+                "question":"",
+                "answer":""
+            }
+        ]
+    },
+    "cv": {
+        "personalInfo": {
+            "name": "Flavius Dolca",
+            "phone": "+39 328 477 7204",
+            "email": "flaviusdolca@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/flavius-dolca-18b09b150",
+            "github": "https://github.com/flaviusdolca",
+            "profilePic": "me.jpeg",
+            "birthYear": "1997",
+            "location": "Lodi, Italy",
+            "hobbies": "motorcycling, sports, reading, technology"
+        },
+        "description": "I'm a highly motivated and adaptable fast learner with a strong passion for programming and cybersecurity, specialized on backend programming with full-stack capabilities.",
+        "professionalSkills": {
+            "softSkills": [
+                "Excellent time management and communication skills",
+                "Great at working independently",
+                "Used to the Agile methodology and teamwork",
+                "Open-mindeded and adaptable to new circumstances"
+            ],
+            "techSkills": [
+                "Used to work with various design patterns",
+                "Extensive Java backend experience (Spring, Quarkus, Hibernate, Tomcat, JSP, Thymeleaf, etc.)",
+                "Excellent knowledge of NodeJs, ExpressJs, NextJs and Strapi",
+                "ReactJs, Typescript, VueJs experience",
+                "Tailwind, Bootstrap and Hugo experience",
+                "Good knowledge of various  SQL and noSql databases",
+                "Basic knowledge of common AWS services (Cognito, DynamoDB, S3, ElasticBeanstalk, EC2 ...)",
+                "Good Docker knowledge and basic DevOps experience",
+                "Good Python and Flask knowledge",
+                "Good knowledge of common web applications vulnerabilities, testing methodology and popular penetration testing tools",
+                "Knowledge of Good knowledge of Linux fundamentals"
+            ]
+        },
+        "experience": [
+            {
+                "companyName": "Relatech",
+                "city": "Milan",
+                "occupation": "Backend Developer",
+                "from": "February 2022",
+                "to": "July 2022",
+                "descriptionList": [
+                    "Developed Java microservices using Quarkus framework",
+                    "Setup OpenID SSO using Keycloak",
+                    "Automated third-party applications communication using Flask"
+                ]
+            },
+            {
+                "companyName": "Anoki",
+                "city": "Milan",
+                "occupation": "Full-stack Developer",
+                "from": "November 2019",
+                "to": "February 2022",
+                "descriptionList": [
+                    "Worked across multiple projects of varying sizes",
+                    "Worked in a team but also developed and designed web applications independently",
+                    "Experience with Spring, Spring Flow, JSP,Junit, Thymeleaf, Hibernate, SpringBoot, Maven and other java based technologies.",
+                    "Integrated third party services such as Twilio, SendGrid",
+                    "Worked with ExpressJs , ReactJs, NextJs and Strapi",
+                    "Maintained Java and Flask applications",
+                    "Worked with numerous AWS services and Docker",
+                    "Experience with basic DevOps procedures on Linux servers and AWS",
+                    "Trained junior profiles and interns",
+                    "Proposed and performed internal assessment of public-facing company web applications, reporting numerous serious issues to company executives"
+                ]
+            },
+            {
+                "companyName": "Zucchetti",
+                "city": "Lodi",
+                "occupation": "Java Developer",
+                "from": "October  2016 ",
+                "to": "November 2019",
+                "descriptionList": [
+                    "Maintained Java EE payroll software and customers' databases ",
+                    "Reviewed functional analysis documents",
+                    "Provided technical support to customers ",
+                    "Identified vulnerabilities in internal and enterprise software during downtimes"
+                ]
+            }
+        ],
+        "education": [
+            {
+                "schoolName": "Istituto Istruzione Superiore \"A.Cesaris\"",
+                "description": "State industrial and technical institute",
+                "location": "Casalpusterlengo, Italy",
+                "data": " 2011-2016"
+            }
+        ],
+        "languages": [
+            "Italian",
+            "English",
+            "Romanian"
+        ]
+    }
+}
