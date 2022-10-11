@@ -6,15 +6,23 @@
         "languages": "Languages",
         "experience": "Experience",
         "education": "Education",
-        "aboutMe": "About me"
-
+        "aboutMe": "About me",
+        "faq": "Faq"
     },
-    "aboutMe":{
-        "description":"",
-        "faq":[
+    "aboutMe": {
+        "description": "I'm a curious and spontaneous person, I try to be sincere whenever I find it appropriate. As a first impression, I may seem shy or reserved but after you get to know me your opinion may change completely. In my free time I like to code personal projects, study new technologies and practice phisical activities.",
+        "faq": [
             {
-                "question":"",
-                "answer":""
+                "question": "What is your favourite programming language?",
+                "answer": "I don't have a favourite programming language. At the moment I enjoy more working with Javascript and Python because of their syntax and the freedom it gives the programmer."
+            },
+            {
+                "question": "Do you have any hobbies unrelated to technology?",
+                "answer": "My hobbies unrelated to technology are training martial arts, working-out and jogging. Except that, I may have other small hobbies every now and then but i rarely continue it for a long time."
+            },
+            {
+                "question": "Do you prefeer working remote or on-site?",
+                "answer": "I prefeer a remote aproach since I can manage better my off-work hours and I don't have to take in consideration the travel time. Except for that reason another reason is that I can manage better my working time, having a flexible schedule is very important to me."
             }
         ]
     },
