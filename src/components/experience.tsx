@@ -17,7 +17,7 @@ export default function Experience({ experiences, expLabel }: ExperienceProps) {
         <>
             <div className='w-full flex flex-col'>
                 <span className="text-3xl uppercase border-b-2 border-gray-500">{expLabel}</span>
-                {experiences.map((el: any, i: number) => (
+                {experiences.map((el: ExperienceT, i: number) => (
                     <div key={i} className='w-full flex flex-col justify-start py-4'>
                         <>
                             <span className="text-2xl font-medium" >

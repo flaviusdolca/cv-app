@@ -10,6 +10,7 @@ import reportWebVitals from './reportWebVitals';
 import About from './routes/about';
 import Home from './routes/home';
 import './i18n';
+import Portfolio from './routes/portfolio';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/portfolio",
+        element: <Portfolio />,
       },
     ],
   },

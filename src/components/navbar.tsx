@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import useOutsideClick from '../hooks/useOutsideClick';
 import LanguagePicker from './languagePicker';
 import { useTranslation } from 'react-i18next';
+import PageHeader from './pageHeader';
 
 export default function Navbar() {
 
@@ -19,31 +20,33 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="text-lg px-4 flex h-14 items-center text-center justify-end bg-gradient-to-l from-gray-800 to-gray-900 via-gray-900 text-gray-300">
-                <ul className="w-full hidden sm:flex justify-end space-x-4">
-                    {items.map((navPage) =>
-                        <li key={navPage.id}>
-                            <Link to={navPage.href} aria-current="page" className="hover:text-gray-600 px-3 py-2">
-                                {navPage.name}
-                            </Link>
-                        </li>
-                    )}
-                </ul>
-                <div onClick={() => !isPanelOpen && setPanelOpen(true)} className='block sm:hidden'>
-                    <HamburgerMenu isOpen={isPanelOpen} ></HamburgerMenu>
+            <PageHeader>
+                <div className="text-lg flex px-4 w-full items-center text-center justify-end ">
+                    <ul className="w-full hidden sm:flex justify-end space-x-4">
+                        {items.map((navPage) =>
+                            <li key={navPage.id}>
+                                <Link to={navPage.href} aria-current="page" className="hover:text-gray-600 px-3 py-2">
+                                    {navPage.name}
+                                </Link>
+                            </li>
+                        )}
+                    </ul>
+                    <div onClick={() => !isPanelOpen && setPanelOpen(true)} className='block sm:hidden'>
+                        <HamburgerMenu isOpen={isPanelOpen} ></HamburgerMenu>
+                    </div>
+                    <LanguagePicker />
                 </div>
-                <LanguagePicker />
+            </PageHeader>
 
-            </div>
             {
                 isPanelOpen && <div ref={panelRef} className={"sm:hidden w-full z-10 absolute bg-gray-800 text-gray-300"}>
                     <ul className="flex flex-col justify-start">
                         {items.map((navPage) =>
-                            <li onClick={() => setPanelOpen(false)} key={navPage.id} className='w-full border-b-2 border-gray-400 px-3 py-4 '>
-                                <Link to={navPage.href} aria-current="page" key={navPage.id} className=" hover:text-gray-600 ">
+                            <Link to={navPage.href} aria-current="page" key={navPage.id} className="hover:text-gray-600 ">
+                                <li onClick={() => setPanelOpen(false)} key={navPage.id} className='w-full border-b-2 border-gray-400 px-3 py-4 '>
                                     {navPage.name}
-                                </Link>
-                            </li>
+                                </li>
+                            </Link>
                         )}
                     </ul>
                 </div>

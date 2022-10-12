@@ -16,7 +16,7 @@ export default function Education({ education, educationLabel }: ExperienceProps
             <div className='w-full flex flex-col'>
                 <span className="text-3xl uppercase border-b-2 border-gray-500">{educationLabel}</span>
 
-                {education.map((el: any, i: number) => (
+                {education.map((el: EducationT, i: number) => (
                     <div key={i} className='w-full flex flex-col justify-start py-4'>
                         <>
                             <span className="text-xl font-medium">{el.schoolName}</span>
