@@ -15,7 +15,7 @@ export default function Contacts({ email, phone, location }: ContactsProps) {
         </div>
         <div className='my-2'>
             <FaPhone className='w-6 h-6 inline align-top mx-2' />
-            <a href={"tel:" + phone} className='text-2xl'>{phone}</a>
+            <a href={"tel:" + phone} className='text-xl sm:text-2xl'>{phone}</a>
         </div>
         <div className='my-2'>
             <FaMapMarked className='w-6 h-6 inline align-top mx-2' />
