@@ -1,6 +1,6 @@
 import Education, { EducationT } from "./education"
 import Experience, { ExperienceT } from "./experience"
-import Languages from "./Languages"
+import Languages from "./languages"
 import ProfessionalSkills, { ProfessionalSkillslabelsT, ProfessionalSkillsT } from "./professionalSkills"
 
 export interface CvPageProps {

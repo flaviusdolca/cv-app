@@ -1,5 +1,5 @@
-import PageLayout from '../components/pageLayout';
-import PageHeader from '../components/pageHeader';
+import PageLayout from '../components/layout/pageLayout';
+import PageHeader from '../components/layout/pageHeader';
 import PageTitle from '../components/pageTitle';
 
 export default function Portfolio() {

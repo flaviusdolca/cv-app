@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import PageHeader from '../components/pageHeader';
-import PageLayout from '../components/pageLayout';
+import PageHeader from '../components/layout/pageHeader';
+import PageLayout from '../components/layout/pageLayout';
 import PageTitle from '../components/pageTitle';
 
 interface FaqT {

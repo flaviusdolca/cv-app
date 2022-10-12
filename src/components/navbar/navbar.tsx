@@ -1,10 +1,10 @@
-import HamburgerMenu from './hamburgerMenu';
+import HamburgerMenu from '../hamburgerMenu';
 import { Link } from "react-router-dom";
 import { useEffect, useRef, useState } from 'react';
-import useOutsideClick from '../hooks/useOutsideClick';
-import LanguagePicker from './languagePicker';
+import useOutsideClick from '../../hooks/useOutsideClick';
+import LanguagePicker from '../languagePicker';
 import { useTranslation } from 'react-i18next';
-import PageHeader from './pageHeader';
+import PageHeader from '../layout/pageHeader';
 import NavbarPanel from './navbarPanel';
 import tw from "tailwind-styled-components"
 

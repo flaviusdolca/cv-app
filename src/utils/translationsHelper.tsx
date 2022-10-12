@@ -1,8 +1,8 @@
 import { TFunction } from "i18next"
-import { CvPageProps } from "../components/cvPage"
-import { EducationT } from "../components/education"
-import { ExperienceT } from "../components/experience"
-import { ProfessionalSkillsT } from "../components/professionalSkills"
+import { CvPageProps } from "../components/cv/cvPage"
+import { EducationT } from "../components/cv/education"
+import { ExperienceT } from "../components/cv/experience"
+import { ProfessionalSkillsT } from "../components/cv/professionalSkills"
 
 
 export function getHomeTranslations(t: TFunction) {

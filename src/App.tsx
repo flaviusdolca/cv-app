@@ -1,7 +1,7 @@
-import Navbar from "./components/navbar";
+import Navbar from "./components/navbar/navbar";
 import { Outlet } from "react-router-dom";
 import { Suspense } from 'react';
-import Footer from "./components/footer";
+import Footer from "./components/footer/footer";
 import { FaArrowUp } from "react-icons/fa";
 
 function App() {

@@ -1,5 +1,5 @@
 import { FaArrowDown } from 'react-icons/fa'
-import PageTitle from './pageTitle'
+import PageTitle from '../pageTitle'
 import Contacts from './contacts'
 
 export interface CvHeaderLabels {
