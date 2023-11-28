@@ -23,12 +23,6 @@ export default function CvHeader({ ...labels }: CvHeaderLabels) {
         <h2 className="text-xl font-thin">{description}</h2>
       </div>
       <Contacts {...{ email, phone, location }} />
-      <a
-        href="#skills"
-        className="flex items-center justify-center h-16 w-16 bg-gradient-to-r from from-blue-900  to-red-900 rounded-full absolute -bottom-8"
-      >
-        <FaArrowDown className="transition animate-[bounce_1s_infinite] w-6 h-6" />
-      </a>
     </>
   );
 }

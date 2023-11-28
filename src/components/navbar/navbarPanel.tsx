@@ -8,7 +8,7 @@ interface NavbarPanelProps {
 
 const NavbarPanel = forwardRef<HTMLDivElement, NavbarPanelProps>(({ items, handleClick }, panelRef) => (
     <>
-        <div ref={panelRef} className={"sm:hidden w-full z-10 absolute top-16 bg-gray-800 text-gray-300"}>
+        <div ref={panelRef} className={"sm:hidden w-full z-20 absolute top-16 bg-gray-800 text-gray-300"}>
             <ul className="flex flex-col justify-start">
                 {items.map(navPage =>
                     <Link to={navPage.href} aria-current="page" key={navPage.id} className="hover:text-gray-600 ">

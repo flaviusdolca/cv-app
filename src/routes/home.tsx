@@ -12,10 +12,12 @@ export default function Home() {
 
   return (
     <>
-      <PageHeader>
-        <Meteors number={50}></Meteors>
-        <CvHeader {...headerLabels} />
-      </PageHeader>
+      <div className="overflow-hidden">
+        <PageHeader>
+          <Meteors number={50}></Meteors>
+          <CvHeader {...headerLabels} />
+        </PageHeader>
+      </div>
       <PageLayout>
         <CvPage {...cvPage} />
       </PageLayout>
